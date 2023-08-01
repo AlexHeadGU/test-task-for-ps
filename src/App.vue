@@ -1,9 +1,9 @@
 <template>
-  <div></div>
+  <vCityPart></vCityPart>
 </template>
 
 <script>
-  import vCityPart from './components/v-city-part/v-city-part'
+  import vCityPart from './components/city-part/v-city-part'
 
   export default {
   name: 'app',
@@ -14,8 +14,7 @@
     return {}
   },
 
-  methods: {},
-  mounted() { }
+  methods: {}
 }
 </script>
 <style lang="scss">
